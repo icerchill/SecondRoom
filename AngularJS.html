@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+  <title> Using AngularJs Directives and Data Binding </title>
+</head>
+<body data-ng-init="customers=[{name: 'John Smith', city: 'Phoenix'}, {name:'John doe', city: 'New york'}, {name:'jane Smith', city: 'San Jose'}]">
+  Name:
+  <br />
+  <input type="text" data-ng-model="name"/> {{ name }}
+  <br />
+  <ul>
+    <li data-ng-repeat="cust in customers | filter:name">{{ cust.name}} - {{cust.city}} </li>
+
+  <script src="script/angular.min.js"></script>
+</body>
+</html>
