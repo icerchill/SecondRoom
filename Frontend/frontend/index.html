@@ -31,6 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body id="page-top" class="index">
@@ -53,7 +54,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="login.html">login</a>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">login</button>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Housing</a>
@@ -76,6 +77,36 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign in</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container">
+      <form class="form-signin">
+        <div class="col-xs-3">
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input type="email" id="inputEmail" class="form-control input-lg" placeholder="Email address" required autofocus>
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input type="password" id="inputPassword" class="form-control input-lg" placeholder="Password" required>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+        </div>
+      </form>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Header -->
     <header>
@@ -640,6 +671,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
