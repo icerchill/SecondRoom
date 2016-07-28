@@ -60,7 +60,7 @@ h6 {
   background-color: #c4451d;
   border-color: #c4451d;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -69,7 +69,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #c4451d;
+  background-color: #f6bf01;
   border-color: #f6bf01;
 }
 .btn-primary:active,
@@ -100,16 +100,18 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: black;
-  background-color: #fbeca1;
-  border-color: #fbeca1;
+  color: white;
+  background-color: #af4748;
+  border-color: #af4748;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  border-radius: 3px;
+  border-radius: 50px;
   font-size: 25px;
-  padding: 20px 40px;
+  padding: 10px 40px;
 }
-.btn-xl:hover,
+.btn-xl:hover{
+  color:#330000;
+}
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
@@ -150,10 +152,13 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #fed136;
+  color: #af4748;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-weight: 900
 }
-.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:hover{
+  color:#330000;
+}
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
@@ -206,7 +211,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 2em;
+    font-size: 4em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -225,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/13.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -237,8 +242,8 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 150px;
+  padding-bottom: 10px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -246,19 +251,22 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 50px;
+  font-weight: 900;
+
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
-  margin-bottom: 25px;
+  line-height: 100px;
+  margin-bottom: 0 px;
+  color: white;
 }
 @media (min-width: 700px) {
   header .intro-text {
     padding-top: 450px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -270,10 +278,11 @@ header .intro-text .intro-heading {
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 75px;
     line-height: 75px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+
   }
 }
 section {
@@ -300,6 +309,9 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+}
+.checkbox-label {
+  padding-left: 50px;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -538,7 +550,7 @@ section h3.section-subheading {
   margin-bottom: 50px;
 }
 .team-member img {
-  margin: 0 auto;
+  margin: 10 auto;
   border: 7px solid white;
 }
 .team-member h4 {
