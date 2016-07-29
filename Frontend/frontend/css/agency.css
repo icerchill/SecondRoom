@@ -99,10 +99,25 @@ fieldset[disabled] .btn-primary.active {
   color: #c4451d;
   background-color: white;
 }
-.btn-xl {
+.btn-l {
   color: white;
   background-color: #af4748;
   border-color: #af4748;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+
+.control-group {
+  font-size: 16px;
+}
+
+.btn-xl {
+  color: white;
+  background-color: #af4748;
+  
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border-radius: 50px;
@@ -118,7 +133,6 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #f09742;
-  border-color: #f6bf01;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -147,6 +161,15 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+
+.nav-tabs {
+  font-size: 16px;
+  font-weight: 20px
+}
+
+.checkbox-label{
+  padding-left: 50px;
+}
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
@@ -168,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #af4748;
+  border-color: #af4748;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -177,29 +200,30 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #af4748;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: 16px;
   letter-spacing: 1px;
-  color: white;
+  color: #af4748;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #af4748;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #fed136;
+  background-color: #af4748;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #fec503;
+  background-color: #af4748;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -211,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4em;
+    font-size: 3em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
