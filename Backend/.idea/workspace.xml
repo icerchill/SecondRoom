@@ -3,9 +3,24 @@
   <component name="ChangeListManager">
 <<<<<<< Updated upstream
     <list default="true" id="e7f19cca-dde4-46b5-af14-e0919da608c6" name="Default" comment="">
+<<<<<<< Updated upstream
       <change type="DELETED" beforePath="$PROJECT_DIR$/templates/user.html___jb_old___" afterPath="" />
+=======
+<<<<<<< Updated upstream
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/vendor/img/header-bg.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/vendor/img/team/2.jpg" afterPath="$PROJECT_DIR$/static/vendor/img/team/2.jpg" />
+>>>>>>> Stashed changes
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+<<<<<<< Updated upstream
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Frontend/frontend/index.html" afterPath="$PROJECT_DIR$/../Frontend/frontend/index.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Backend/settings.py" afterPath="$PROJECT_DIR$/Backend/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/static_root/css/agency.css" afterPath="$PROJECT_DIR$/static/static_root/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     </list>
 =======
     <list default="true" id="e7f19cca-dde4-46b5-af14-e0919da608c6" name="Default" comment="" />
@@ -40,15 +55,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Backend/settings.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< Updated upstream
             <state relative-caret-position="2489">
               <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
 =======
+<<<<<<< HEAD
             <state relative-caret-position="319">
               <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="0">
+              <caret line="131" column="52" selection-start-line="131" selection-start-column="52" selection-end-line="131" selection-end-column="52" />
+=======
+            <state vertical-scroll-proportion="0.7150259">
+              <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 >>>>>>> Stashed changes
               <folding />
             </state>
@@ -104,8 +129,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="524">
               <caret line="172" column="0" selection-start-line="172" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+=======
+<<<<<<< Updated upstream
+            <state relative-caret-position="561">
+              <caret line="470" column="44" selection-start-line="470" selection-start-column="44" selection-end-line="470" selection-end-column="44" />
+=======
+            <state vertical-scroll-proportion="-2.9411764">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -140,6 +175,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/user_info/templates/user_info/index.html" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/user_info/views.py" />
+        <option value="$PROJECT_DIR$/Backend/urls.py" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/Backend/settings.py" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/static/vendor/css/agency.min.css" />
         <option value="$PROJECT_DIR$/static/vendor/css/agency.css" />
         <option value="$PROJECT_DIR$/user_info/admin.py" />
@@ -149,7 +191,17 @@
         <option value="$PROJECT_DIR$/Backend/urls.py" />
         <option value="$PROJECT_DIR$/templates/user.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/user_info/views.py" />
+=======
+=======
+        <option value="$PROJECT_DIR$/static/vendor/css/agency.min.css" />
+        <option value="$PROJECT_DIR$/static/vendor/css/agency.css" />
+        <option value="$PROJECT_DIR$/static/static_root/css/agency.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/Backend/settings.py" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -184,10 +236,23 @@
       </profile-state>
     </entry>
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/master
     <option name="x" value="32" />
     <option name="y" value="23" />
     <option name="width" value="1648" />
     <option name="height" value="1027" />
+<<<<<<< HEAD
+=======
+=======
+    <option name="x" value="840" />
+    <option name="y" value="23" />
+    <option name="width" value="840" />
+    <option name="height" value="1023" />
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 >>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -234,6 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< Updated upstream
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Backend" />
@@ -312,6 +378,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+=======
+>>>>>>> Stashed changes
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -630,17 +698,41 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19713657" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
 =======
+<<<<<<< HEAD
     <frame x="32" y="23" width="1648" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17310087" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< Updated upstream
+    <frame x="32" y="23" width="1648" height="1027" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17310087" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="840" y="23" width="840" height="1023" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518797" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+>>>>>>> origin/master
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1771177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< Updated upstream
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1771177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 >>>>>>> Stashed changes
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -962,6 +1054,7 @@
         <state />
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/user_info/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -986,26 +1079,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2489">
           <caret line="131" column="42" selection-start-line="131" selection-start-column="42" selection-end-line="131" selection-end-column="42" />
+=======
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/Backend/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="131" column="52" selection-start-line="131" selection-start-column="52" selection-end-line="131" selection-end-column="52" />
+=======
+    <entry file="file://$PROJECT_DIR$/static/vendor/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7692308">
+          <caret line="4" column="4892" selection-start-line="4" selection-start-column="4892" selection-end-line="4" selection-end-column="4892" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/user.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="19">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+=======
+<<<<<<< Updated upstream
+        <state relative-caret-position="60">
+          <caret line="4" column="4892" selection-start-line="4" selection-start-column="4892" selection-end-line="4" selection-end-column="4892" />
+=======
+        <state vertical-scroll-proportion="0.028409092">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="58" />
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/templates/user.html___jb_old___">
+=======
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/static/static_root/css/agency.css">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+=======
+    <entry file="file://$PROJECT_DIR$/static/vendor/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="582" column="35" selection-start-line="582" selection-start-column="33" selection-end-line="582" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/static_root/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56060606">
+          <caret line="236" column="21" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/static_root/css/agency.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+>>>>>>> Stashed changes
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/user_info/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1017,6 +1160,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user_info/views.py">
+=======
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/static/vendor/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9120">
+          <caret line="608" column="1" selection-start-line="608" selection-start-column="1" selection-end-line="608" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+>>>>>>> Stashed changes
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/static/vendor/font-awesome/css/font-awesome.css">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
@@ -1040,8 +1202,19 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+<<<<<<< HEAD
         <state relative-caret-position="319">
           <caret line="263" column="47" selection-start-line="263" selection-start-column="47" selection-end-line="263" selection-end-column="47" />
+=======
+        <state relative-caret-position="561">
+          <caret line="470" column="44" selection-start-line="470" selection-start-column="44" selection-end-line="470" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/Backend/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7150259">
+          <caret line="126" column="47" selection-start-line="126" selection-start-column="47" selection-end-line="126" selection-end-column="47" />
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 >>>>>>> Stashed changes
           <folding />
         </state>
