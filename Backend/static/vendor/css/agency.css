@@ -262,7 +262,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  text-align: down;
+  text-align: right;
   color: white;
 }
 header .intro-text {
