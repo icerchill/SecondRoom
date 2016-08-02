@@ -3,11 +3,8 @@ from django.db import models
 
 # Create your models here.
 def upload_location(instance, filename):
-<<<<<<< HEAD
     return "../%s/%s" % (instance, filename)
-=======
-    return "./%s/%s" % (instance, filename)
->>>>>>> origin/master
+
 
 class user(models.Model):
     email = models.CharField(max_length=50)
@@ -17,4 +14,3 @@ class user(models.Model):
     cellNumber = models.CharField(max_length=10, blank=True)
     def __str__(self):
         return self.email + " - " + self.alias + " " + str(self.pk)
-
