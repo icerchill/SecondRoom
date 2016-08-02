@@ -16,8 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from user_info import views
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index)
-]
+    url(r'^$', views.index),
+    url(r'^signup/', views.user_signup),
+    url(r'^signin/', views.user_signin),
+    url(r'^user/(?P<userid>[0-9]+)$', views.user_detail),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
