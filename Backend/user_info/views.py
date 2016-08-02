@@ -51,6 +51,7 @@ def user_detail(request, userid):
 
     if request.method == "GET":
         context = {
+            "avatar": result.avatar,
             "email": result.email,
             "username": result.alias,
             "phonenumber": result.cellNumber
