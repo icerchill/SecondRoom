@@ -39,22 +39,26 @@ def user_signin(request):
         else:
             check_pass = check_password(request.POST['password'], result.password)
             if check_pass is True:
-                return HttpResponse("login sccuess")
+                request.session["userid"] = result.id
+                return redirect(to="/user/"+str(result.id))
             else:
                 return HttpResponse("dose not exist! " + result.password)
 
 def user_detail(request, userid):
-    try:
-        result = user.objects.get(pk=userid)
-    except result.DoesNotExist:
-        return Http404
+    if request.session["userid"] == int(userid):
+        try:
+            result = user.objects.get(pk=userid)
+        except result.DoesNotExist:
+            return Http404
 
-    if request.method == "GET":
-        context = {
-            "avatar": result.avatar,
-            "email": result.email,
-            "username": result.alias,
-            "phonenumber": result.cellNumber
-        }
-    template = "../templates/user.html"
-    return render(request, template, context)
+        if request.method == "GET":
+            context = {
+                "avatar": result.avatar,
+                "email": result.email,
+                "username": result.alias,
+                "phonenumber": result.cellNumber
+            }
+        template = "../templates/user.html"
+        return render(request, template, context)
+    else:
+        raise Http404("page not found"+str(request.session['userid']))
