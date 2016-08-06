@@ -67,8 +67,7 @@ def user_detail(request, userid):
                 "username": result.alias,
                 "phonenumber": result.cellNumber
             }
-        template = "../templates/user.html"
-        return render(request, template, context)
+        return render(request, userpage, context)
     else:
         raise Http404("page not found"+str(request.session['userid']))
 
