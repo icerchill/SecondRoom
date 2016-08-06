@@ -26,6 +26,3 @@ class Room_img(models.Model):
 
     def __str__(self):
         return str(self.room.id)
-
-
-
