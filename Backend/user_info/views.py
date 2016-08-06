@@ -1,22 +1,30 @@
 from django.shortcuts import render, redirect
-from .forms import UserForm
 from django.contrib.auth.hashers import make_password, check_password
 from django.http import HttpResponse, Http404
 from .models import user
+from house.models import Room,Room_img
 # Create your views here.
 
+indexpage = '../templates/index.html'
+userpage = '../templates/user.html'
+
 def index(request):
-    return render(request, '../templates/index.html')
+    #roomdata = Room.objects.get()
+    if 'username' in request.session:
+        context = {
+                    "user_status": "<a href='/house/roompost'>" + request.session["username"] + "</a>",
+                    #"roomdata": roomdata
+                }
+        return render(request, indexpage, context)
+    else:
+        context = {
+                    "user_status": "<a class='page-scroll' href='' data-toggle='modal' data-target='#myModal'>Login</a>",
+                    #"roomdata": roomdata
+                }
+        return render(request, indexpage, context)
 
 def user_signup(request):
     if request.method == "POST":
-        # form_class = UserForm(request.POST)
-        # if form_class.is_valid():
-        #     user = form_class.save(commit=False)
-        #     password = make_password(form_class.cleaned_data.get('password'))
-        #     user.password = password
-        #     user.save()
-        # return HttpResponse(password)
         username = request.POST['userid']
         email = request.POST['email']
         password = make_password(request.POST['password'])
@@ -40,7 +48,8 @@ def user_signin(request):
             check_pass = check_password(request.POST['password'], result.password)
             if check_pass is True:
                 request.session["userid"] = result.id
-                return redirect(to="/user/"+str(result.id))
+                request.session["username"] = result.alias
+                return redirect(to="/")
             else:
                 return HttpResponse("dose not exist! " + result.password)
 
@@ -62,3 +71,21 @@ def user_detail(request, userid):
         return render(request, template, context)
     else:
         raise Http404("page not found"+str(request.session['userid']))
+
+
+def user_update(request, userid):
+    if request.session["userid"] == int(userid):
+        try:
+            result = user.objects.get(pk=userid)
+        except result.DoesNotExist:
+            return Http404
+
+        if request.method == "POST":
+            result.cellNumber = request.POST()
+        return redirect(to='/user/'+str(request.session["userid"]))
+    else:
+        raise Http404("page not found"+str(request.session['userid']))
+
+def user_signout(request):
+    request.session.flush()
+    return redirect(to='/')
