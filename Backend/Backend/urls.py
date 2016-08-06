@@ -15,14 +15,17 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from user_info import views
+from user_info import views as userviews
+from house import views as houseviews
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index),
-    url(r'^signup/', views.user_signup),
-    url(r'^signin/', views.user_signin),
-    url(r'^user/(?P<userid>[0-9]+)$', views.user_detail),
+    url(r'^$', userviews.index),
+    url(r'^signup/', userviews.user_signup),
+    url(r'^signin/', userviews.user_signin),
+    url(r'^user/(?P<userid>[0-9]+)$', userviews.user_detail),
+    url(r'^house/roompost$', houseviews.roompost),
+    url(r'^logout', userviews.user_signout),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'user_info.apps.UserInfoConfig'
+    'user_info.apps.UserInfoConfig',
+    'house.apps.HouseConfig'
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -102,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DATE_INPUT_FORMATS = ('%d-%m-%Y')
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
