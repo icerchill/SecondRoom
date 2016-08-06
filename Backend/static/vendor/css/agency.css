@@ -111,7 +111,21 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .control-group {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 80px
+}
+
+.house-info {
+  position: relative;
+}
+
+.avatar {
+  height: 50px;
+  widows: 50px;
+}
+
+.profile-detail .p{
+  font-size: 10px;
 }
 
 .btn-xl {
@@ -123,6 +137,14 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 50px;
   font-size: 25px;
   padding: 10px 40px;
+}
+
+.modal-content {
+  width: 700px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+
 }
 .btn-xl:hover{
   color:#330000;
@@ -163,8 +185,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .nav-tabs {
-  font-size: 16px;
-  font-weight: 20px
+  font-size: 25px;
+  font-weight: 30px
 }
 
 .checkbox-label{
