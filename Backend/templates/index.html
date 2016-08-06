@@ -36,7 +36,7 @@
 
 </head>
 
-<body id="page-top" class="index" ng-app="index">
+<body id="page-top" class="index">
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -59,13 +59,13 @@
                         {{ user_status | safe }}
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Housing</a>
+                        <a class="page-scroll" href="#"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">团队</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">联系我们</a>
                     </li>
                 </ul>
             </div>
@@ -74,15 +74,14 @@
         <!-- /.container-fluid -->
     </nav>
 
-<!-- Modal -->
+    <!-- Modal -->
 <div id="myModal" class="modal fade"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog ">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
-        <br>
         <div class="bs-example bs-example-tabs">
             <ul id="myTab" class="nav nav-tabs">
-              <li class="active"><a href="#signin" data-toggle="tab">Sign In</a></li>
-              <li class=""><a href="#signup" data-toggle="tab">Register</a></li>
+              <li class="active"><a href="#signin" data-toggle="tab">登陆账号</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">注册新用户</a></li>
               <div><button type="button" class="close" data-dismiss="modal" data-target="#myModal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
             </ul>
         </div>
@@ -152,7 +151,6 @@
               <label class="control-label" for="password">Password:</label>
               <div class="controls">
                 <input id="password" name="password" class="form-control" type="password" placeholder="password" class="input-large" required="">
-                <em>1-8 Characters</em>
               </div>
             </div>
 
@@ -183,12 +181,107 @@
   </div>
 </div>
 
+    <!-- Posting -->
+<div id="myPostingModal" class="modal fade" tabindex="-1" role="dialog">
+
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="bs-example bs-example-tabs">
+            <ul id="myTab" class="nav nav-tabs">
+              <li class="active"><a href="#signin" data-toggle="tab">出租房屋</a></li>
+              <li class=""><a href="#signup" data-toggle="tab">卖出</a></li>
+              <div><button type="button" class="close" data-dismiss="modal" data-target="#myModal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>
+            </ul>
+        </div>
+      <div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Text</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-search-input" class="col-xs-2 col-form-label">Search</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="search" value="How do I shoot web" id="example-search-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-email-input" class="col-xs-2 col-form-label">Email</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-url-input" class="col-xs-2 col-form-label">URL</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="url" value="http://getbootstrap.com" id="example-url-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-xs-2 col-form-label">Telephone</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-password-input" class="col-xs-2 col-form-label">Password</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="password" value="hunter2" id="example-password-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-number-input" class="col-xs-2 col-form-label">Number</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="number" value="42" id="example-number-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-datetime-local-input" class="col-xs-2 col-form-label">Date and time</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-date-input" class="col-xs-2 col-form-label">Date</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-month-input" class="col-xs-2 col-form-label">Month</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="month" value="2011-08" id="example-month-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-week-input" class="col-xs-2 col-form-label">Week</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="week" value="2011-W33" id="example-week-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-time-input" class="col-xs-2 col-form-label">Time</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-color-input" class="col-xs-2 col-form-label">Color</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">只找最合适的</div>
-                <a href="#" class="page-scroll btn btn-xl hvr-float">租房</a>
+                <a href="#" class="page-scroll btn btn-xl hvr-float" data-toggle="modal" data-target="#myPostingModal">租房</a>
                 <a href="#" class="page-scroll btn btn-xl hvr-float">二手交易</a>
             </div>
 
@@ -198,9 +291,6 @@
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="#">YoungFlow</a>
   </div>
@@ -255,20 +345,30 @@
                     </div>
                 </div>
                 <div class="row">
+
                 <div class="col-md-9 ">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item active">
-                            <div class="col-md-3">
-                                <img src="{% static 'img/about/house.JPG' %}" class="img-responsive" alt="">
-                            </div>
-                            <div class="col-md-9">
-                                <h4 class="list-group-item-heading">95112</h4>
-                                <p></p>
+                    <ul class="thumbnails">
+
+                      <col class="span4">
+                        <a href="#" class="thumbnail">
+                            <col>
+                            <div id="house-img" class="row-fluid">
+                                <div class="span4">
+                                    <img src="{% static 'img/about/house.JPG' %}" class="img-responsive" width=300px alt="">
+                                </div>
+                            <div id="house-info" class="span5">
+                                <h4 >95112</h4>
+                                <p>North San jose</p>
                                 <p>$1000</p>
                             </div>
+                            </div>
+                            </col>
 
                         </a>
-                    </div>
+                      </col>
+                      ...
+                    </ul>
+
                 </div>
                 </div>
 
@@ -280,7 +380,7 @@
 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
-        <div class="container">
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Team Member</h2>
@@ -357,11 +457,11 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control" placeholder="姓名 *" id="name" required data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <input type="email" class="form-control" placeholder="邮箱 *" id="email" required data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">

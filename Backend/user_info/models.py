@@ -5,7 +5,6 @@ from django.db import models
 def upload_location(instance, filename):
     return "../%s/%s" % (instance, filename)
 
-
 class user(models.Model):
     email = models.CharField(max_length=50)
     alias = models.CharField(max_length=100)
